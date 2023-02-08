@@ -1,0 +1,3 @@
+project("bank")
+
+add_executable(bank main.cpp bank.cpp)
