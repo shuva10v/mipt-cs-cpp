@@ -4,9 +4,6 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems/
 
 project(vcpkgdemo VERSION 0.1.0)
 
-include(CTest)
-enable_testing()
-
 # Lets use modern standard
 set(CMAKE_CXX_STANDARD 17)
 
@@ -19,8 +16,3 @@ target_link_libraries(vcpkg_demo PRIVATE spdlog::spdlog_header_only)
 find_package(fmt CONFIG REQUIRED)
 target_link_libraries(vcpkg_demo PRIVATE fmt::fmt-header-only)
 
-# CPack stuff
-
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
