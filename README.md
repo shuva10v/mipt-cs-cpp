@@ -3,3 +3,5 @@
 Topics:
 
 * [Basic OOP and C++](./oop/)
+* [CMake and vcpkg](./cmake_vcpkg)
+* Testing - TODO
