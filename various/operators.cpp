@@ -19,7 +19,8 @@ class Duration {
 
   Duration& operator++() {
     seconds_++;
-    if (seconds_ >= 60) return *this;
+    if (seconds_ >= 60) minutes_ += 1;
+    return *this;
   }
 
   Duration operator+(const Duration& rhs) {
@@ -52,8 +53,10 @@ class Duration {
 int main() {
   Duration d1 = Duration(1, 10);
   Duration d2 = Duration(3, 55);
+  ++d1;
   d1.print();
   d2.print();
+
   Duration sum = d1 + d2;
   sum.print();
   (sum + 60).print();
