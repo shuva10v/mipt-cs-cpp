@@ -26,6 +26,6 @@ cmake --build .
 
 Links:
 * [CMake documentation](https://cmake.org/cmake/help/latest/index.html)
-* [Vcpkg configuration docs][https://github.com/microsoft/vcpkg]
+* [Vcpkg configuration docs](https://github.com/microsoft/vcpkg)
 * [CMake examples](https://github.com/ttroy50/cmake-examples)
 * [spdlog examples](https://github.com/gabime/spdlog)
