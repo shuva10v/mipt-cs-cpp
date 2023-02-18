@@ -12,7 +12,7 @@ git submodule update --init --recursive
 ```
 * Run ``bootstrap-vcpkg.sh``
 
-Hint: if cmake can not detect vcpkg try to delete build folter and rerun cmake
+Hint: if cmake can not detect vcpkg try to delete build folder and rerun cmake
 
 ## cmake
 
