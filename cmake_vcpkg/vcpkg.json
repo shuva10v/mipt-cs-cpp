@@ -1,0 +1,15 @@
+{
+    "name": "vcpkgdemo",
+    "version-string": "0.1.0",
+    "license": "MIT",
+    "dependencies": [
+        "spdlog",
+        "openssl",
+        {
+            "name": "abseil",
+            "features": [
+                "cxx17"
+            ]
+        }
+    ]
+}
