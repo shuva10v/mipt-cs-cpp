@@ -6,4 +6,6 @@ Topics:
 * [CMake and vcpkg](./cmake_vcpkg)
 * [Passing values by val/ref/ptr](./various/value_ptr_ref.cpp)
 * [Operators overloading](./various/operators.cpp)
+* [Simple template syntax overview](./various/templates.cpp)
+* [STL containers](./various/stl_containers.cpp)
 * Testing - TODO
