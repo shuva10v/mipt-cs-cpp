@@ -8,4 +8,5 @@ Topics:
 * [Operators overloading](./various/operators.cpp)
 * [Simple template syntax overview](./various/templates.cpp)
 * [STL containers](./various/stl_containers.cpp)
+* [Destructors, assignment operator, smart pointers](./various/destructors.cpp)
 * Testing - TODO
