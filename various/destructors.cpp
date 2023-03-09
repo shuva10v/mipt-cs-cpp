@@ -159,24 +159,4 @@ void smart_ptrs2() {
   u1->print();
 }
 
-class Counter {
- private:
-  int i_;
-
- public:
-  Counter() : i_(0){};
-  int get() const { return i_; };
-  void inc() { ++i_; };
-};
-
-void counter_problem() {
-  std::map<std::string, Counter> counters;
-  counters["a"].inc();
-  counters["a"].inc();
-  counters["b"].inc();
-  for (const auto& [key, value] : counters) {
-    std::cout << "Key: " << key << ", value: " << value.get() << "\n";
-  }
-}
-
-int main() { counter_problem(); }
+int main() { smart_ptrs2(); }
