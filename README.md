@@ -13,4 +13,5 @@ Topics:
     * [Singleton](./various/singleton.cpp)
     * [Factory method](./various/factory_method.cpp)
     * [Registry](./various/registry.cpp)
+    * [Decorator](./various/decorator.cpp)
 * Testing - TODO
