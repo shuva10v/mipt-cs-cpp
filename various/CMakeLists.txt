@@ -10,4 +10,5 @@ add_executable(destructors destructors.cpp)
 # design pattern
 add_executable(singleton singleton.cpp)
 add_executable(factory_method factory_method.cpp)
+add_executable(registry registry.cpp)
 # set_property(TARGET bank PROPERTY CXX_STANDARD 20)

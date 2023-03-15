@@ -12,4 +12,5 @@ Topics:
 * Design patterns:
     * [Singleton](./various/singleton.cpp)
     * [Factory method](./various/factory_method.cpp)
+    * [Registry](./various/registry.cpp)
 * Testing - TODO
