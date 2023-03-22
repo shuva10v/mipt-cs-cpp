@@ -9,6 +9,7 @@ Topics:
 * [Simple template syntax overview](./various/templates.cpp)
 * [STL containers](./various/stl_containers.cpp)
 * [Destructors, assignment operator, smart pointers](./various/destructors.cpp)
+* [Type casting](./various/type_casting.cpp)
 * Design patterns:
     * [Singleton](./various/singleton.cpp)
     * [Factory method](./various/factory_method.cpp)
