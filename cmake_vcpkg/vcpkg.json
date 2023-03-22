@@ -4,7 +4,7 @@
     "license": "MIT",
     "dependencies": [
         "spdlog",
-        "openssl",
+        "catch2",
         {
             "name": "abseil",
             "features": [

@@ -16,3 +16,7 @@ target_link_libraries(vcpkg_demo PRIVATE spdlog::spdlog_header_only)
 find_package(fmt CONFIG REQUIRED)
 target_link_libraries(vcpkg_demo PRIVATE fmt::fmt-header-only)
 
+
+add_executable(unit_tests unit_tests.cpp)
+find_package(Catch2 CONFIG REQUIRED)
+target_link_libraries(unit_tests PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)

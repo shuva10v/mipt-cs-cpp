@@ -16,4 +16,4 @@ Topics:
     * [Registry](./various/registry.cpp)
     * [Decorator](./various/decorator.cpp)
     * [Observer](./various/observer.cpp)
-* Testing - TODO
+* [Testing with Catch2](./cmake_vcpkg/unit_tests.cpp)
