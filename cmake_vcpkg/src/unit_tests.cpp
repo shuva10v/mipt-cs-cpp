@@ -7,7 +7,7 @@
 TEST_CASE("2 + 2 = 4") {
   int x = 2;
   int y = 2;
-  REQUIRE(x * y == 4);
+  REQUIRE(x * y == 5);
 }
 
 TEST_CASE("missing item from registry") {
