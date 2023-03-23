@@ -8,7 +8,7 @@ class Chessman {
   std::string name_;
 
  protected:
-  Chessman(std::string name) : name_(name){};
+  Chessman(std::strig name) : name_(name){};
 
  public:
   std::string name() { return name_; };
