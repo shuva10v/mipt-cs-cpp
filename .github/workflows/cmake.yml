@@ -18,10 +18,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-
-    - name: Init vcpkg
-      run: git submodule update --init --recursive
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.CI_TOKEN }}
+        submodules: true
       
     - name: Configure CMake
       working-directory: ${{github.workspace}}/cmake_vcpkg
