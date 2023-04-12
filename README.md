@@ -17,3 +17,4 @@ Topics:
     * [Decorator](./various/decorator.cpp)
     * [Observer](./various/observer.cpp)
 * [Testing with Catch2](./cmake_vcpkg/unit_tests.cpp)
+* [Working with sqlite](./sqlite)
