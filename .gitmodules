@@ -4,3 +4,6 @@
 [submodule "sqlite/vcpkg"]
 	path = sqlite/vcpkg
 	url = git@github.com:microsoft/vcpkg.git
+[submodule "rest/vcpkg"]
+	path = rest/vcpkg
+	url = git@github.com:microsoft/vcpkg.git
