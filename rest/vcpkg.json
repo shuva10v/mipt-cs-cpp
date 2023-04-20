@@ -1,0 +1,11 @@
+{
+    "name": "sqlitedemo",
+    "version-string": "0.1.0",
+    "license": "MIT",
+    "dependencies": [
+        "spdlog",
+        "restbed",
+        "jsoncpp",
+        "restclient-cpp"
+    ]
+}
