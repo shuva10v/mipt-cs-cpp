@@ -19,3 +19,4 @@ Topics:
 * [Testing with Catch2](./cmake_vcpkg/unit_tests.cpp)
 * [Working with sqlite](./sqlite)
 * [Simple REST server and client](./rest)
+* [Docker example](./rest)
