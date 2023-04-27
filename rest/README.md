@@ -22,3 +22,11 @@ If you have ARM platform, use buildx:
 ```
 docker buildx build --platform=linux/amd64  . -t simple_rest -f builder.Dockerfile 
 ```
+
+## Run
+
+Using docker compose:
+
+```
+docker compose up -d
+```
