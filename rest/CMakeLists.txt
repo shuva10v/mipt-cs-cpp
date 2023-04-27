@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.0.0)
 # vcpkg integration - override cmake toolchain (note: should be placed before project() call)
+set(VCPKG_CXX_FLAGS_RELEASE -Wno-narrowing) # fix for restbed
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_CURRENT_SOURCE_DIR}/vcpkg/scripts/buildsystems/vcpkg.cmake CACHE STRING "Vcpkg toolchain file")
 
 project(rest VERSION 0.1.0)
