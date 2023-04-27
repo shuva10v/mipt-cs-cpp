@@ -1,7 +1,8 @@
 FROM ubuntu:22.04 as builder
 
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install git -y build-essential cmake make g++ curl zip unzip tar ninja-build
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install git -y build-essential cmake make g++ curl zip unzip tar ninja-build pkg-config
 ADD server.cpp /sources/
+ADD client.cpp /sources/
 ADD CMakeLists.txt /sources/
 ADD vcpkg.json /sources/
 
@@ -16,7 +17,6 @@ RUN cmake /sources
 RUN cmake --build .
 
 FROM ubuntu:22.04
-COPY --from=builder /build/target/rest_server  /opt/rest/rest_server
+COPY --from=builder /build/rest_server  /opt/rest/rest_server
 
 CMD ["/opt/rest/rest_server"]
-# CMD ["bash"]
